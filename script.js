@@ -40,9 +40,6 @@ function convertUnits(e) {
     inputResult.value = soma.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
     arrayResult = []
     soma = 0
-    console.log(soma)
-    console.log(arrayResult)
-
     
 }
 
