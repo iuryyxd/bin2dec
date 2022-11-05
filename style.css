@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+body, .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #4a98f7;
+}
+
+.wrapper {
+    flex-direction: column;
+    background: #fff;
+    max-width: 500px;
+    padding: 10px 20px 20px;
+    border-radius: 5px;
+}
+
+.wrapper h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.wrapper .separator {
+    height: 1px;
+    width: 100%;
+    background: #92c3ff;
+}
+
+.wrapper .content {
+    max-width: 80%;
+}
+
+.wrapper form {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.wrapper form input {
+    flex: 2;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #8594a7;
+    padding-inline: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.wrapper form input:focus {
+    outline: 2px solid #4a98f7;
+    border: none;
+    
+}
+
+.wrapper form button {
+    flex: 1;
+    cursor: pointer;
+    background: #4a98f7;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+}
+
+
+.wrapper .result {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.result p {
+    font-weight: 500;
+}
+
+.result input {
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #8594a7;
+    padding-inline: 10px;
+    font-weight: 500;
+    font-size: 15px;
+}
